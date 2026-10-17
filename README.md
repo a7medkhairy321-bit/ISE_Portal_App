@@ -17,8 +17,8 @@ All versions and their notes: [Releases](https://github.com/a7medkhairy321-bit/I
 
 ## Which file?
 
-Download **`ise-portal.apk`**. It is the **arm64** build, which runs on modern Android
-phones (Android 7.0 or newer). You don't need any other file from the release.
+**One file for all phones:** download **`ise-portal.apk`**. It works on every Android
+phone running Android 7.0 or newer, 64-bit and 32-bit. There is no other file to choose.
 
 ## Install on Android
 
@@ -36,5 +36,7 @@ New versions install over the old one; your data is kept (it lives on the server
   first, then install the downloaded file and log in again. Nothing is lost.
 - **The download is incomplete:** delete the file, download it again, and retry.
 - **Not enough storage:** free some space and retry.
-- **Your phone is not arm64 or runs Android older than 7.0:** this build can't be
-  installed on it.
+- **"Package appears to be invalid" with version 1.0.1 or older:** those releases
+  were arm64-only and don't install on phones running a 32-bit Android. Download
+  the latest `ise-portal.apk` (one file for all phones) and install it.
+- **Your phone runs Android older than 7.0:** the app can't be installed on it.
