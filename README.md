@@ -29,11 +29,14 @@ phone running Android 7.0 or newer, 64-bit and 32-bit. There is no other file to
 4. Tap **Install**, then **Open**, and log in.
 
 New versions install over the old one; your data is kept (it lives on the server).
+Updating from 1.0.1 is the one exception: see Troubleshooting below.
 
 ## Troubleshooting: "App not installed"
 
 - **You have an older test build installed** (signed differently): uninstall ISE Portal
   first, then install the downloaded file and log in again. Nothing is lost.
+- **If an update over 1.0.1 fails,** uninstall 1.0.1 first (your data is on the server),
+  then install the latest.
 - **The download is incomplete:** delete the file, download it again, and retry.
 - **Not enough storage:** free some space and retry.
 - **"Package appears to be invalid" with version 1.0.1 or older:** those releases
